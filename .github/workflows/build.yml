@@ -30,9 +30,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r flask-app/requirements.txt
 
-      # - name: Run app test
-      #   run: |
-      #      python3 -m unittest discover
+      - name: Run app test
+        run: |
+           python3 -m unittest discover
 
   
   test:
